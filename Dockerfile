@@ -7,7 +7,7 @@ COPY server ./server
 COPY web ./web
 COPY package.json ./
 COPY yarn.lock ./
-COPY .env.example ./
+
 
 RUN cd server && npm install
 RUN cd ../web && npm install && npm run build
