@@ -1,0 +1,8 @@
+{
+  "name": "gsp-ai-shopify-app",
+  "private": true,
+  "workspaces": [
+    "server",
+    "web"
+  ]
+}
