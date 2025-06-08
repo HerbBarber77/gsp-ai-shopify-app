@@ -6,7 +6,8 @@ WORKDIR /app
 COPY server ./server
 COPY web ./web
 COPY package.json ./
-COPY yarn.lock ./
+COPY package*.json ./
+
 
 
 RUN cd server && npm install
